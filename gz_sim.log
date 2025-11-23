@@ -1,0 +1,19 @@
+(2025-11-16 15:36:59.941) [info] [Gui.cc:332] Gazebo Sim GUI    v10.0.0
+(2025-11-16 15:36:59.944) [info] [Gui.cc:360] Detected Wayland. Setting Qt to use the xcb plugin: 'QT_QPA_PLATFORM=xcb'.
+(2025-11-16 15:37:00.046) [info] [gz.cc:242] Received world [/home/necharkc/ws_bluerov/bluerov2_gz/worlds/bluerov2_underwater.world] from the GUI.
+(2025-11-16 15:37:00.047) [info] [gz.cc:407] Gazebo Sim Server v10.0.0
+(2025-11-16 15:37:00.100) [info] [ServerPrivate.cc:697] Loading SDF world file[/home/necharkc/ws_bluerov/bluerov2_gz/worlds/bluerov2_underwater.world].
+/usr/libexec/gz/sim10/gz-sim-gui-client: symbol lookup error: /snap/core20/current/lib/x86_64-linux-gnu/libpthread.so.0: undefined symbol: __libc_pthread_init, version GLIBC_PRIVATE
+(2025-11-16 15:37:01.876) [info] [SystemManager.cc:54] Serving entity system service on [/entity/system/add]
+(2025-11-16 15:37:01.888) [info] [SimulationRunner.cc:279] Serving world controls on [/world/bluerov2_underwater/control], [/world/bluerov2_underwater/control/state] and [/world/bluerov2_underwater/playback/control]
+(2025-11-16 15:37:01.888) [info] [SimulationRunner.cc:305] Serving GUI information on [/world/bluerov2_underwater/gui/info]
+(2025-11-16 15:37:01.888) [info] [SimulationRunner.cc:308] World [bluerov2_underwater] initialized with [default_physics] physics profile.
+(2025-11-16 15:37:01.888) [info] [SimulationRunner.cc:315] Serving world SDF generation service on [/world/bluerov2_underwater/generate_world_sdf]
+(2025-11-16 15:37:01.889) [info] [ServerPrivate.cc:357] Serving world names on [/gazebo/worlds]
+(2025-11-16 15:37:01.889) [info] [ServerPrivate.cc:370] Resource path add service on [/gazebo/resource_paths/add].
+(2025-11-16 15:37:01.889) [info] [ServerPrivate.cc:383] Resource path get service on [/gazebo/resource_paths/get].
+(2025-11-16 15:37:01.889) [info] [ServerPrivate.cc:398] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2025-11-16 15:37:01.889) [info] [ServerPrivate.cc:412] Resource paths published on [/gazebo/resource_paths].
+(2025-11-16 15:37:01.889) [info] [ServerPrivate.cc:425] Server control service on [/server_control].
+(2025-11-16 15:37:01.890) [info] [SimulationRunner.cc:762] Found no publishers on /stats, adding root stats topic
+(2025-11-16 15:37:01.890) [info] [SimulationRunner.cc:796] Found no publishers on /clock, adding root clock topic
